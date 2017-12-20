@@ -23,10 +23,6 @@ elasticsearch_network_host: localhost
 
 #The port to listen for HTTP connections on.
 elasticsearch_http_port: 9200
-
-#Whether to allow inline scripting against ElasticSearch. 
-elasticsearch_script_inline: true
-elasticsearch_script_indexed: true
 ```
 
 ## Dependencies

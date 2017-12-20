@@ -27,8 +27,15 @@
 - name: Start Elasticsearch.
   service: 
     name: elasticsearch 
-    state: started
+    state: restarted
     enabled: yes
+  ignore_errors: true
+
+- name: Allow traffic through elasticsearch TCP port in your firewall
+  firewalld:
+    port: "{{ elasticsearch_http_port }}/tcp"
+    permanent: true
+    state: enabled
 
 - name: Make sure Elasticsearch is running before proceeding.
   wait_for: 
