@@ -1,0 +1,17 @@
+---
+dependencies:
+  - { role: ansible-oracle-java }
+
+galaxy_info:
+  author: avinash6784 (Avinash Pawar)
+  description: Ansible role to install Elasticsearch
+  license: MIT
+  company: "DevOps Techie"
+  min_ansible_version: 2.0
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - development
+    - system
