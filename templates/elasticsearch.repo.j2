@@ -1,8 +1,8 @@
 # {{ ansible_managed }}
 
-[elasticsearch-{{ elsticsearch_major_version }}]
-name=Elasticsearch repository for {{ elsticsearch_major_version }} packages
-baseurl=https://artifacts.elastic.co/packages/{{ elsticsearch_major_version }}/yum
+[elasticsearch-{{ elasticsearch_major_version }}]
+name=Elasticsearch repository for {{ elasticsearch_major_version }} packages
+baseurl=https://artifacts.elastic.co/packages/{{ elasticsearch_major_version }}/yum
 gpgcheck=1
 gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
 enabled=1

@@ -10,7 +10,7 @@ Available variables are listed below, along with default values (see `defaults/m
 ```yml
 
 # Elasticsearch major version
-elsticsearch_major_version: 5.x
+elasticsearch_major_version: 5.x
 
 # Elasticsearch cluster name
 elasticsearch_cluster_name: my_cluster

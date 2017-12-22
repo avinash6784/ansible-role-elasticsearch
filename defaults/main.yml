@@ -1,7 +1,7 @@
 ---
 
 # Elasticsearch defaults var
-elsticsearch_major_version: 5.x
+elasticsearch_major_version: 5.x
 elasticsearch_cluster_name: my_cluster
 elasticsearch_node_name: my_node
 elasticsearch_network_host: localhost
